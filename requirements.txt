@@ -1,0 +1,6 @@
+websocket-client~=1.9.0
+sounddevice~=0.5.5
+scipy~=1.17.1
+PyAudio~=0.2.14
+django-knowledge~=0.2.0
+python-docx~=1.2.0
