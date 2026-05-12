@@ -1,13 +1,14 @@
-# src/tests/test_asr.py
-import os
-from src.modules.asr.realtime_asr import realtime_asr
+from pathlib import Path
+import sys
 
-# 当前文件所在目录
-BASE_DIR = os.path.dirname(__file__)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+SRC_ROOT = PROJECT_ROOT / "src"
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
 
-# 绝对路径指向 test.wav
-wav_path = os.path.join(BASE_DIR, "test.wav")
+from modules.asr import realtime_asr
 
-print("🎤 开始语音识别...")
-text = realtime_asr(wav_path)
-print("识别结果：", text)
+
+if __name__ == "__main__":
+    wav_path = Path(__file__).resolve().parent / "test.wav"
+    print(realtime_asr(str(wav_path)))

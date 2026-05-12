@@ -1,15 +1,15 @@
-from dataclasses import dataclass
-from typing import Dict, Any, List
+from dataclasses import dataclass, field
+from typing import Any, Dict
 
 
-@dataclass
+@dataclass(slots=True)
 class Document:
     text: str
-    metadata: Dict[str, Any]
+    metadata: Dict[str, Any] = field(default_factory=dict)
 
 
-@dataclass
+@dataclass(slots=True)
 class DocumentChunk:
-    chunk_id: int
+    chunk_id: str
     text: str
-    metadata: Dict[str, Any]
+    metadata: Dict[str, Any] = field(default_factory=dict)

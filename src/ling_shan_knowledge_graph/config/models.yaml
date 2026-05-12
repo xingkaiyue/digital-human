@@ -1,0 +1,190 @@
+# config/models.yaml
+####################################################
+#  不要直接修改这个里面的文件，可能会有被覆盖的风险，
+#  建议 复制一份 在 models.private.yml 中修改，
+#  会自动加载
+#####################################################
+
+# LLM模型配置
+MODEL_NAMES:
+  openai:
+    name: OpenAI
+    url: https://platform.openai.com/docs/models
+    default: gpt-3.5-turbo
+    env:
+      - OPENAI_API_KEY
+    models:
+      - gpt-4
+      - gpt-4o
+      - gpt-4o-mini
+      - gpt-3.5-turbo
+  deepseek:
+    name: DeepSeek
+    url: https://platform.deepseek.com/api-docs/zh-cn/pricing
+    default: deepseek-chat
+    base_url: https://api.deepseek.com/v1
+    env:
+      - sk-cf72bc213d004f0bb8c80db273f7c006
+    models:
+      - deepseek-chat
+      - deepseek-reasoner
+  zhipu:
+    name: 智谱AI (Zhipu)
+    url: https://open.bigmodel.cn/dev/api
+    default: glm-4-flash
+    base_url: https://open.bigmodel.cn/api/paas/v4/
+    env:
+      - ZHIPUAI_API_KEY
+    models:
+      - glm-4
+      - glm-4-plus
+      - glm-4-air
+      - glm-4-flash
+  siliconflow:
+    name: SiliconFlow
+    url: https://cloud.siliconflow.cn/models
+    default: Qwen/Qwen2.5-7B-Instruct
+    base_url: https://api.siliconflow.cn/v1
+    env:
+      - SILICONFLOW_API_KEY
+    models:
+      - deepseek-ai/DeepSeek-R1
+      - deepseek-ai/DeepSeek-V3
+      - Qwen/Qwen2.5-72B-Instruct
+      - Qwen/Qwen2.5-7B-Instruct
+
+# Embedding模型配置
+EMBED_MODEL_INFO:
+  local/BAAI/bge-m3:
+    name: BAAI/bge-m3
+    dimension: 1024
+  zhipu/zhipu-embedding-2:
+    name: embedding-2
+    dimension: 1024
+  siliconflow/BAAI/bge-m3:
+    name: BAAI/bge-m3
+    dimension: 1024
+    url: https://api.siliconflow.cn/v1/embeddings
+    api_key: SILICONFLOW_API_KEY
+
+# 重排序模型配置
+RERANKER_LIST:
+  local/BAAI/bge-reranker-v2-m3:
+    name: BAAI/bge-reranker-v2-m3
+  siliconflow/BAAI/bge-reranker-v2-m3:
+    name: BAAI/bge-reranker-v2-m3
+
+# ============ 知识图谱专用配置 ============
+# Neo4j数据库配置
+NEO4J_CONFIG:
+  uri: bolt://localhost:7687
+  username: neo4j
+  password: Aa123456
+  database: neo4j
+
+# 实体类型定义
+ENTITY_TYPES:
+  Scene:
+    name: 景点
+    color: "#4CAF50"
+    properties:
+      - name
+      - category
+      - location
+      - description
+  Concept:
+    name: 概念
+    color: "#2196F3"
+    properties:
+      - name
+      - meaning
+  Architecture:
+    name: 建筑参数
+    color: "#FF9800"
+    properties:
+      - name
+      - height
+      - area
+      - weight
+
+# 关系类型定义
+RELATION_TYPES:
+  位于:
+    name: 位于
+    color: "#795548"
+  包含:
+    name: 包含
+    color: "#607D8B"
+  始建于:
+    name: 始建于
+    color: "#8BC34A"
+  代表:
+    name: 代表
+    color: "#E91E63"
+  别称:
+    name: 别称
+    color: "#00BCD4"
+
+# 灵山胜境景点数据
+LING_SHAN_DATA:
+  scenes:
+    - name: 灵山大佛
+      id: LS-001
+      category: 佛像
+      location: 祥符禅寺北侧
+      description: 世界最高露天青铜释迦牟尼立像
+      properties:
+        height: 88米
+        total_height: 101.5米
+        copper_weight: 725吨
+    - name: 灵山梵宫
+      id: LS-002
+      category: 建筑
+      location: 香水海之畔
+      description: 佛教艺术的卢浮宫
+      properties:
+        area: 7.2万平方米
+        cost: 18亿元
+    - name: 五印坛城
+      id: LS-003
+      category: 建筑
+      location: 香水海中央
+      description: 藏传佛教建筑
+      properties:
+        style: 藏传佛教
+    - name: 曼飞龙塔
+      id: LS-004
+      category: 塔
+      location: 五印坛城北侧
+      description: 南传佛教建筑
+    - name: 九龙灌浴
+      id: LS-005
+      category: 景观
+      location: 菩提大道北端
+      description: 释迦牟尼诞生场景再现
+      properties:
+        height: 27.5米
+        weight: 260吨
+    - name: 祥符禅寺
+      id: LS-006
+      category: 寺庙
+      location: 阿育王柱北侧
+      description: 千年古刹
+      properties:
+        founded: 唐代贞观年间
+        founder: 玄奘法师
+
+  relations:
+    - [灵山胜境, 包含, 灵山大佛]
+    - [灵山胜境, 包含, 灵山梵宫]
+    - [灵山胜境, 包含, 五印坛城]
+    - [灵山胜境, 包含, 九龙灌浴]
+    - [灵山大佛, 位于, 祥符禅寺北侧]
+    - [灵山梵宫, 位于, 香水海之畔]
+    - [五印坛城, 位于, 香水海中央]
+    - [曼飞龙塔, 位于, 五印坛城北侧]
+    - [九龙灌浴, 位于, 菩提大道北端]
+    - [灵山梵宫, 别称, 佛教艺术的卢浮宫]
+    - [五印坛城, 别称, 小布达拉宫]
+    - [祥符禅寺, 始建于, 唐代贞观年间]
+    - [祥符禅寺, 创建者, 玄奘法师]

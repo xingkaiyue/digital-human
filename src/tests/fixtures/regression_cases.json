@@ -1,0 +1,30 @@
+[
+  {
+    "name": "lingshan_core_spot_list",
+    "query": "灵山胜境有什么景点",
+    "scene_context": {
+      "destination_id": "lingshan_group",
+      "destination_name": "灵山胜境",
+      "scenic_id": "lingshan_core",
+      "scenic_name": "灵山胜境",
+      "scope_mode": "current_only"
+    },
+    "expected_type": "knowledge",
+    "must_contain": ["灵山大佛", "灵山梵宫", "五印坛城"],
+    "must_not_contain": ["拈花广场", "香月花街", "鹿鸣谷"]
+  },
+  {
+    "name": "nianhuawan_spot_list",
+    "query": "拈花湾有什么景点",
+    "scene_context": {
+      "destination_id": "lingshan_group",
+      "destination_name": "灵山胜境",
+      "scenic_id": "nianhuawan",
+      "scenic_name": "拈花湾禅意小镇",
+      "scope_mode": "current_only"
+    },
+    "expected_type": "knowledge",
+    "must_contain": ["拈花广场", "香月花街", "鹿鸣谷"],
+    "must_not_contain": ["灵山大佛", "九龙灌浴", "灵山梵宫"]
+  }
+]

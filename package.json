@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pathlib": "^0.1.2",
+    "pytest": "^1.0.0"
+  }
+}

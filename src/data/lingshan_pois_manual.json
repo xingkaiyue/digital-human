@@ -1,0 +1,412 @@
+[
+  {
+    "poi_id": "LS-001",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "灵山大照壁",
+    "aliases": [
+      "大照壁",
+      "华夏第一壁"
+    ],
+    "category": "landmark",
+    "address": "景区入口处",
+    "description": "景区入口地标，由赵朴初题写“灵山胜境”，是进入灵山胜境的第一道视觉屏障与文化序章。",
+    "tags": [
+      "入口",
+      "地标",
+      "拍照",
+      "文化"
+    ],
+    "lat": 31.421394,
+    "lng": 120.102506,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "灵山大照壁",
+    "coord_matched_address": "景区入口处"
+  },
+  {
+    "poi_id": "LS-002",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "五明桥",
+    "aliases": [
+      "五明桥"
+    ],
+    "category": "bridge",
+    "address": "大照壁北侧，横跨香水海",
+    "description": "连接景区入口区域与核心朝圣区域的五座石拱桥，象征佛教中的五种核心智慧。",
+    "tags": [
+      "桥",
+      "佛教文化",
+      "入口动线"
+    ],
+    "lat": 31.421776,
+    "lng": 120.10229,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "五明桥",
+    "coord_matched_address": "大照壁北侧，横跨香水海"
+  },
+  {
+    "poi_id": "LS-003",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "佛足坛",
+    "aliases": [
+      "佛足坛"
+    ],
+    "category": "religious_site",
+    "address": "五明桥北侧，菩提大道起点",
+    "description": "复刻佛祖释迦牟尼真身脚印的朝圣节点，是游客瞻仰、祈福的重要景观。",
+    "tags": [
+      "朝圣",
+      "祈福",
+      "佛教文化"
+    ],
+    "lat": 31.422763,
+    "lng": 120.101631,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "佛足坛",
+    "coord_matched_address": "五明桥北侧，菩提大道起点"
+  },
+  {
+    "poi_id": "LS-004",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "五智门",
+    "aliases": [
+      "五智门"
+    ],
+    "category": "gate",
+    "address": "佛足坛北侧，核心景区入口处",
+    "description": "进入核心景区的标志性牌坊，五门象征五方五佛，六柱象征六度波罗蜜。",
+    "tags": [
+      "大门",
+      "佛教智慧",
+      "中轴线"
+    ],
+    "lat": 31.42302,
+    "lng": 120.10146,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "五智门",
+    "coord_matched_address": "佛足坛北侧，核心景区入口处"
+  },
+  {
+    "poi_id": "LS-005",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "菩提大道",
+    "aliases": [
+      "菩提大道"
+    ],
+    "category": "walkway",
+    "address": "五智门北侧，直通九龙灌浴广场",
+    "description": "景区中轴线核心步道，两侧种植近百棵菩提树，是前往核心景观的必经之路。",
+    "tags": [
+      "步道",
+      "林荫",
+      "禅意",
+      "中轴线"
+    ],
+    "lat": 31.423182,
+    "lng": 120.101143,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "菩提大道",
+    "coord_matched_address": "五智门北侧，直通九龙灌浴广场"
+  },
+  {
+    "poi_id": "LS-006",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "九龙灌浴",
+    "aliases": [
+      "九龙灌浴",
+      "灌浴广场"
+    ],
+    "category": "show",
+    "address": "菩提大道北端，景区中轴线核心位置",
+    "description": "依据佛陀诞生传说打造的大型动态景观，重现“花开见佛，九龙沐浴”的祥瑞场景。",
+    "tags": [
+      "表演",
+      "必看",
+      "祈福",
+      "亲子"
+    ],
+    "lat": 31.4308,
+    "lng": 120.1071,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "九龙灌浴",
+    "coord_matched_address": "菩提大道北端，景区中轴线核心位置"
+  },
+  {
+    "poi_id": "LS-007",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "降魔浮雕",
+    "aliases": [
+      "降魔浮雕"
+    ],
+    "category": "sculpture",
+    "address": "九龙灌浴北侧，阿育王柱前方",
+    "description": "展示佛陀降魔成道故事的巨型石雕，是佛教故事科普与艺术观赏的重要景观。",
+    "tags": [
+      "浮雕",
+      "佛教故事",
+      "文化"
+    ],
+    "lat": 31.425559,
+    "lng": 120.099569,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "降魔浮雕",
+    "coord_matched_address": "九龙灌浴北侧，阿育王柱前方"
+  },
+  {
+    "poi_id": "LS-008",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "阿育王柱",
+    "aliases": [
+      "阿育王柱"
+    ],
+    "category": "monument",
+    "address": "降魔浮雕北侧，祥符禅寺正前方",
+    "description": "复刻古印度阿育王石柱的景区地标，象征佛法向四方传播。",
+    "tags": [
+      "地标",
+      "石柱",
+      "佛教传播"
+    ],
+    "lat": 31.426185,
+    "lng": 120.099212,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "阿育王柱",
+    "coord_matched_address": "降魔浮雕北侧，祥符禅寺正前方"
+  },
+  {
+    "poi_id": "LS-009",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "百子戏弥勒",
+    "aliases": [
+      "百子戏弥勒"
+    ],
+    "category": "sculpture",
+    "address": "阿育王柱与祥符禅寺之间",
+    "description": "弥勒佛与百名孩童构成的青铜群雕，融合佛教慈悲喜舍与民俗祈福寓意。",
+    "tags": [
+      "亲子",
+      "祈福",
+      "拍照",
+      "群雕"
+    ],
+    "lat": 31.42719,
+    "lng": 120.098844,
+    "source_file": "灵山胜境_景点结构化数据集.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "百子戏弥勒",
+    "coord_matched_address": "阿育王柱与祥符禅寺之间"
+  },
+  {
+    "poi_id": "LS-011",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "灵山大佛",
+    "aliases": [
+      "灵山大佛",
+      "大佛"
+    ],
+    "category": "core_spot",
+    "address": "佛前广场北侧，景区核心地标",
+    "description": "世界著名露天青铜释迦牟尼立像，是灵山胜境最具代表性的核心地标。",
+    "tags": [
+      "核心景点",
+      "佛教文化",
+      "登高",
+      "拍照"
+    ],
+    "lat": 31.4297,
+    "lng": 120.1058,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "灵山大佛",
+    "coord_matched_address": "佛前广场北侧，景区核心地标"
+  },
+  {
+    "poi_id": "LS-013",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "灵山梵宫",
+    "aliases": [
+      "灵山梵宫",
+      "梵宫"
+    ],
+    "category": "architecture",
+    "address": "灵山胜境核心区",
+    "description": "融合传统佛教艺术与现代科技的文化殿堂，被誉为“佛教艺术的卢浮宫”。",
+    "tags": [
+      "建筑",
+      "艺术",
+      "演出",
+      "佛教文化"
+    ],
+    "lat": 31.4316,
+    "lng": 120.1086,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "灵山梵宫",
+    "coord_matched_address": "灵山胜境核心区"
+  },
+  {
+    "poi_id": "LS-014",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "五印坛城",
+    "aliases": [
+      "五印坛城",
+      "坛城"
+    ],
+    "category": "architecture",
+    "address": "灵山胜境核心区",
+    "description": "展现藏传佛教文化艺术精髓的重要建筑，可体验转经祈福与绕坛城。",
+    "tags": [
+      "藏传佛教",
+      "建筑",
+      "祈福",
+      "文化体验"
+    ],
+    "lat": 31.43115,
+    "lng": 120.10765,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "五印坛城",
+    "coord_matched_address": "灵山胜境核心区"
+  },
+  {
+    "poi_id": "LS-020",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "祥符禅寺",
+    "aliases": [
+      "祥符禅寺"
+    ],
+    "category": "temple",
+    "address": "景区核心区",
+    "description": "小灵山佛教文化的发源地，保留千年银杏、古井、钟楼等历史遗存。",
+    "tags": [
+      "寺院",
+      "历史",
+      "佛教文化",
+      "祈福"
+    ],
+    "lat": 31.428,
+    "lng": 120.0993,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "祥符禅寺",
+    "coord_matched_address": "景区核心区"
+  },
+  {
+    "poi_id": "LS-021",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "佛手广场",
+    "aliases": [
+      "佛手广场",
+      "天下第一掌"
+    ],
+    "category": "square",
+    "address": "景区核心区",
+    "description": "“天下第一掌”祈福体验点，是灵山两大祈福体验之一。",
+    "tags": [
+      "祈福",
+      "拍照",
+      "亲子"
+    ],
+    "lat": 31.4289,
+    "lng": 120.0992,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "佛手广场",
+    "coord_matched_address": "景区核心区"
+  },
+  {
+    "poi_id": "LS-022",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "曼飞龙塔",
+    "aliases": [
+      "曼飞龙塔"
+    ],
+    "category": "tower",
+    "address": "灵山胜境园林景观区",
+    "description": "傣族佛教建筑风格景点，体现不同民族佛教文化与园林景观的融合。",
+    "tags": [
+      "塔",
+      "园林",
+      "民族文化",
+      "拍照"
+    ],
+    "lat": 31.4309,
+    "lng": 120.1091,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "曼飞龙塔",
+    "coord_matched_address": "灵山胜境园林景观区"
+  },
+  {
+    "poi_id": "LS-023",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "灵山精舍",
+    "aliases": [
+      "灵山精舍"
+    ],
+    "category": "retreat",
+    "address": "灵山胜境园林景观区",
+    "description": "兼具住宿、素斋和禅意体验功能的深度文化体验空间。",
+    "tags": [
+      "禅意",
+      "住宿",
+      "素斋",
+      "休闲"
+    ],
+    "lat": 31.4305,
+    "lng": 120.1098,
+    "source_file": "灵山胜境_历史文化个性化游玩指南.docx",
+    "coord_source": "manual_override",
+    "coord_matched_title": "灵山精舍",
+    "coord_matched_address": "灵山胜境园林景观区"
+  },
+  {
+    "poi_id": "LS-GATE",
+    "scenic_id": "lingshan",
+    "scenic_name": "灵山胜境",
+    "name": "游客中心",
+    "aliases": [
+      "游客中心",
+      "南门",
+      "景区入口",
+      "入口"
+    ],
+    "category": "service",
+    "address": "灵山胜境入口服务区",
+    "description": "游客咨询、导览资料领取和入园服务节点，适合作为路线起点。",
+    "tags": [
+      "服务",
+      "入口",
+      "咨询"
+    ],
+    "lat": 31.4285,
+    "lng": 120.1023,
+    "source_file": "手工补充",
+    "coord_source": "manual_override",
+    "coord_matched_title": "游客中心",
+    "coord_matched_address": "灵山胜境入口服务区"
+  }
+]

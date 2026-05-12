@@ -1,0 +1,23 @@
+{
+  "destinations": [
+    {
+      "destination_id": "lingshan_group",
+      "destination_name": "灵山大景区",
+      "aliases": ["灵山景区群", "灵山文旅度假区"],
+      "scenics": [
+        {
+          "scenic_id": "lingshan_core",
+          "scenic_name": "灵山胜境",
+          "aliases": ["灵山胜境核心区", "灵山核心区", "灵山核心景区"],
+          "doc_types": ["structured_spots", "guide"]
+        },
+        {
+          "scenic_id": "nianhuawan",
+          "scenic_name": "拈花湾禅意小镇",
+          "aliases": ["拈花湾", "禅意小镇", "拈花湾小镇"],
+          "doc_types": ["structured_spots", "guide"]
+        }
+      ]
+    }
+  ]
+}
